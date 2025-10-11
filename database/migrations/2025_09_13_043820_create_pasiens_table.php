@@ -16,7 +16,7 @@ return new class extends Migration
         $table->string('no_pasien');
         $table->string('nama');
         $table->string('umur');
-        $table->string('fpoto')->nullable();
+        $table->string('foto')->nullable();
         $table->string('jenis_kelamin');
         $table->text('alamat')->nullable();
         $table->timestamps();
